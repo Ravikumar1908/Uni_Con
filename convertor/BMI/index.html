@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI Calculator</title>
+  <link rel="stylesheet" href="/temperature/styles.css">
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Iceland&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=dark_mode" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="icon" href="https://cdn.worldvectorlogo.com/logos/tqs.svg">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+    <div class="titleDiv">
+      <h1>BMI Calculator</h1>
+    </div>
+    <div class="converter">
+    <div class="inputCont">
+
+        <form id="bmiForm" >
+            <div class="input-group">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" name="weight" required>
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" name="height" required>
+                <button type="submit">Calculate BMI</button>
+            </div>
+            </form>
+            <div id="result" class="results">
+                <h2>Results:</h2>
+            </div>
+        </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
